@@ -1,0 +1,14 @@
+USE SequenceExample
+GO
+
+/****** Object:  [dbo].[Seq_Customer_Id]    Script Date: 1/14/2022 8:29:39 AM ******/
+CREATE SEQUENCE [dbo].[Seq_Customer_Id] 
+ AS [bigint]
+ START WITH 49100000000000
+ INCREMENT BY 1
+ MINVALUE -9223372036854775808
+ MAXVALUE 9223372036854775807
+ CACHE 
+GO
+
+
